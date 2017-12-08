@@ -1,0 +1,456 @@
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+body
+{
+    max-width: 1600px;
+    min-width: 800px;
+    width: 80%;
+    margin: 10px auto;
+}
+a
+{
+    color: #BD2B26;
+}
+nav a
+{
+    color: black;
+}
+.obraz
+{
+    color: black;
+}
+nav, section, footer
+{
+    display: block;
+    overflow: hidden;
+    margin-left: 1%;
+}
+nav ul
+{
+    display:				block;
+	list-style-type: 		none;
+	margin:					0 auto;
+	text-align: 			center;
+	width:					100%;
+	padding:				0;
+}
+nav li
+{
+      border-bottom: 1px dashed #CCC;
+      border-right: 1px dashed #CCC;
+      border-left: 1px dashed #CCC;
+      width: 33%;
+      float: left;
+      padding-bottom: 5px;
+      margin: 10px 0px 20px 0px;
+      text-align: center;
+      
+      font-weight:			normal;	
+	  font-family:			"Lucida Sans Unicode", sans-serif;
+	  font-size:			0.9em;
+      
+      text-decoration: none;
+      
+      -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#current a
+{
+    color: #BD2B26;
+}
+.last
+{
+    border-right: none;
+}
+.first
+{
+    border-left: none;
+}
+nav li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px; 
+    display: block; 
+    width: 100%; 
+    height: 100%;
+}
+nav li a:hover
+{
+    color: #BD2B26;
+}
+h1
+{
+    color: #BD2B26;
+    font-family: Times New Roman, serif;
+    font-size: 4em;
+    font-weight: normal;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+h2
+{
+    color: black;
+    font-family: Times New Roman, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    margin: 2px auto;
+    padding: 2px;
+}
+.main
+{
+    margin: 10px auto;
+    text-align: center;
+    overflow:hidden;
+    clear: both;
+}
+.obraz
+{
+      border: 1px solid black;
+      width: 24%;
+      height: 150px;
+      float: left;
+
+      margin: 0.5%;
+      text-align: center;
+      line-height: 150px;
+      
+      font-weight:			normal;	
+	  font-family:			Times New Roman, serif;
+	  font-size:			1.5em;
+      
+      text-decoration: none;
+      
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+.obraz:hover
+{
+      border: 1px solid #BD2B26;
+	  box-shadow: 0 0 2px #BD2B26;
+}
+.new_obraz span
+{
+    color: #BD2B26;
+}
+.new_obraz
+{
+      border:1px solid black;
+      width: 24%;
+      height: 75px;
+      float: left;
+
+      margin: 0.5%;
+      text-align: center;
+      line-height: 75px;
+      
+      font-weight:			normal;	
+	  font-family:			Times New Roman, serif;
+	  font-size:			1.3em;
+      
+      text-decoration: none;
+      
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer
+{
+    clear: both;
+    border-top: 1px dashed #CCC;
+    margin: 20px auto 30px auto;
+    padding-top: 2px;
+    
+    color: #BD2B26;
+    font-weight:			normal;	
+	font-family:			Times New Roman, serif;
+	font-size:			1.1em;
+}
+#header
+{
+    border: 1px solid black;
+      width: 49%;
+      height: 150px;
+      float: left;
+      padding-top: 10px;
+      margin: 0.5%;
+      text-align: center;
+
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container
+{
+    clear: both;
+    border: 1px solid black;
+    width: 70%;
+    height: 300px;
+    margin: 50px auto;
+    padding: 60px 20px 0px 20px;
+    
+           -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.text span
+{
+    color: #BD2B26;
+    font-family: Times New Roman, serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+.text
+{
+    color: black;
+    font-family: Times New Roman, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 10px;;
+}
+#vk_like
+{
+    padding-left: 20px;    
+    margin: 10px auto;
+}
+.more ul
+{
+    display:				block;
+	list-style-type: 		none;
+	margin:					0 auto;
+	text-align: 			center;
+	width:					100%;
+	padding:				0;
+}
+.more ul li
+{
+      border: 1px dashed #CCC;
+      width: 20%;
+      float: left;
+      padding: 5px;
+      text-align: center;
+      
+      font-weight:			normal;	
+	  font-family:			Times New Roman, serif;
+	  font-size:			1.0em;
+      
+      text-decoration: none;
+      
+            -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.more li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px; 
+    display: block; 
+    width: 100%; 
+    height: 100%;
+}
+.more li a:hover
+{
+    color: #BD2B26;
+}
+.behind
+{
+    margin: 40px auto;
+    text-indent: 2em;
+}
+.behind h1
+{
+    font-size: 1.7em;
+}
+.behind span
+{
+    color: #BD2B26;
+}
+.za *
+{
+    color: transparent !important;
+    text-shadow: 0 0 3px grey !important;
+    text-decoration: none;
+}
+#words
+{
+    border: 1px solid black;
+    background: white;
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 20px;
+}
+#words h1
+{
+    font-size: 3em;
+}
+.half
+{
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form
+{
+    text-indent: 0px;
+    width: 430px;    
+}
+form textarea
+{
+    resize: none;
+    overflow: auto;
+}
+.field 
+{
+    clear:both; 
+    text-align:right;  
+    line-height:25px;
+    margin: 5px 0px;
+}
+.field label
+{
+    float: left;
+    padding-right:10px;
+}
+.field input[type=text], textarea, select
+{
+        width: 300px;
+        font-family: "Times New Roman", serif;
+        
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.field select
+{
+    font-size: 1em;
+}
+form input[type=submit]
+{
+    float: right;
+    background-color: white;
+    border-color: #BD2B26;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.footer
+{
+    border-top: 1px dashed #CCC;
+    margin-bottom: 50px;
+    clear: both;
+}
+.yashare-auto-init
+{
+    margin:10px auto;
+    text-align:center;
+}
+.current
+{
+    color: #BD2B26;    
+}
+.container-half
+{
+    float: left;
+    border: 1px solid black;
+    width: 49%;
+    height: 250px;
+    margin: 0.5%;
+    padding: 70px 30px;
+    position: relative;
+    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.from
+{
+    color: black;
+    font-family: Times New Roman, serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: right;
+    position: absolute;
+    top: 180px;
+    right: 30px;
+}
+.header2
+{
+    clear: both;
+    border: 1px solid black;
+    width: 99%;
+    height: 75px;
+    
+    text-align: center;
+    line-height: 75px;
+    
+    color: #BD2B26;  
+    font-weight: normal;	
+	font-family: Times New Roman, serif;
+	font-size: 2em;
+    
+    margin: 0.5% 0.5%;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container-obrazovanie
+{
+    float: left;
+    border: 1px solid black;
+    width: 49%;
+    height: 250px;
+    margin: 0.5%;
+    padding: 20px 30px;
+    position: relative;
+    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container-add
+{
+    clear: both;
+    border: 1px solid black;
+    width: 70%;
+    height: 250px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.suggest
+{
+    border: none;
+    margin-top: 10px;
+    font-size: 1.0em;
+    text-align: center;
+}
