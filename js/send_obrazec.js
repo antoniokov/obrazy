@@ -3,7 +3,7 @@ $(document).ready(function () {
    
     $("#send_obrazec").submit(function (e) {
         $.ajax({
-            url: 'http://obrazy.by/send_obrazec.php',
+            url: 'https://antoniokov.com/obrazy/send_obrazec.php',
             data: $(this).serialize(),
             type: 'POST',
             success: function (data) {

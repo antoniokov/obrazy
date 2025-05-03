@@ -2,7 +2,7 @@ $(document).ready(function () {
                 $('#send_obraz').on('submit',function (e) {
 
                     $.ajax({
-                        url: 'http://obrazy.by/send_obraz.php',
+                        url: 'https://antoniokov.com/obrazy/send_obraz.php',
                         data: $(this).serialize(),
                         type: 'POST',
                         success: function (data) {

@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['obraz_text'])) {
 
-    $email_to = "iokov@obrazy.by";
+    $email_to = "obrazy@antoniokov.com";
     $email_subject = "Новый образ";
  /*      
     function died($error) {
